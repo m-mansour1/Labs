@@ -1,0 +1,29 @@
+
+.paragraph{
+    border: #FFC0CB solid 2px;
+    letter-spacing: 4px;
+    margin: 20px 40px 50px 40px;
+    padding: 20px 40px 20px 40px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.word{
+    text-decoration: underline red dotted 5px;
+
+}
+
+.word2{
+    text-transform: uppercase;
+}
+
+.arabic{
+    direction: rtl;
+    line-height: 2.5;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
