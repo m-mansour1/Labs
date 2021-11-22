@@ -1,0 +1,27 @@
+.maindiv{
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+#welcome{
+    height: 400px;
+    display: block; 
+font-size: x-large;}
+
+.adiv{
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
