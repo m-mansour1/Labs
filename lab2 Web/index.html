@@ -1,0 +1,115 @@
+<html>
+    <head>
+
+        <title>Facebook</title>
+        <meta name="description" content="Facebook is a well-known
+         social media platform">
+        <meta name="author" content="Mira Mansour">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Facebook, Social Media, 
+        Socialize, Like, Comment">
+
+    </head>
+
+    <body>
+        <h1>Facebook</h1>
+        <ul>
+            <li><a href="#header1">What's Facebook?</li></a>
+            <li><a href="#header2">Why use Facebook?</li></a>
+            <li><a href="#header3">Creating a Facebook account</li></a>
+        </ul>
+
+        <h3 id="header1">What's Facebook?</h3>
+
+        <p>Facebook is a <b>social networking site </b>that makes it easy for
+            you to connect and share with family and friends online.<br>
+            Originally designed for college students, Facebook was created
+            in 2004 by Mark Zuckerberg while he was enrolled at Harvard
+            University.<br>
+            By 2006, anyone over the age of 13 with a valid email address
+            could join Facebook. Today, Facebook is the world's largest social
+            network,<br> with <b>more than 1 billion users</b> worldwide<br>
+        </p>
+
+
+        <h3 id="header2">Why use Facebook?</h3>
+        <p>
+            Have you ever wondered why people like using Facebook? After all,<br>
+            there are already a lot of other ways to communicate online,<br>
+            like through email, instant messaging, and so on. What makes
+            Facebook unique is the<br>
+            ability to connect and share with the people you care about at the
+            same time.<br>
+            For many, having a <i>Facebook</i> account is now an expected part
+            of being online,<br>
+            much like having your own email address. And because Facebook is so
+            popular,<br>
+            other websites have worked to integrate Facebook.<br>
+            This means you can use a single Facebook account to sign in to
+            different services across the <u>web</u><br>
+        </p>
+
+        <h3 id="header3">Creating a Facebook account</h3>
+        <div>
+
+            <form method="POST" action="destination.html">
+                <fieldset>
+                    <legend>
+                        Sign Up
+                        </legend>
+                        <label for="Fname">First Name:</label>
+                        <input type="text" placeholder="Enter name here" name="Fname" required>
+                        <label for="Lname">Last Name:</label>
+                        <input type="text" placeholder="Enter name here" name="Lname" required>
+                    <br>
+                        <label for="email">Email</label>
+                        <input type="text" placeholder="Enter email here" name="email" required>
+                    <br>
+                        <label for="phone" minlength="10">Phone Number:</label>
+                        <input type="tel" placeholder="Enter 10 digit number" name="phone" required>
+                    <br>
+                        <label for="psw" minlength="8">Password:</label>
+                        <input type="password" placeholder="Enter your password" name="psw" required>
+                    <br>
+                    <br>
+                    <label><b>Note</b> your password should be more than 8 characters</label>
+                    <p>Gender</p>
+                    <input type="radio" name="male" size="27" value="1" checked="checked">
+                    <label>Male</label>
+                    <input type="radio" name="female" size="27" value="1">
+                    <label>Female</label>
+                    <br><br>
+                    <label>Date of Birth:</label>
+                    <input type="date" name="dob" ><br>
+                    
+                    <label>Check All That Apply</label>
+                    <br><br>
+                    <input type="checkbox"> I have an account on Facebook <br>
+                    <input type="checkbox"> I use instagram <br>
+                    <input type="checkbox"> I use snapchat <br>
+                    <br>
+                    <label for="education">Education Level Completed:</label>
+                        <select name="education" id="education">
+                            <option value="University">University</option>
+                            <option value="High School">High School</option>
+                            <option value="College">College</option>
+                        </select> 
+                    <br><br>
+                    <label>In 50 words or more explain why you want to study at LAU</label>
+                    <br><br>
+                    <textarea id="study" name="study" rows="5" cols="50" placeholder="Enter Text Here" minlength="100" required></textarea>
+                    <br><br>
+                    <label for="files">upload your image</label>
+                    <input type="file" id="files" class="hidden"/>
+                    <br><br>
+                    <label for="submit"></label>
+                        <input type="submit"/>
+                    <br><br>
+                    <label>do you have an account? </label> <a href="signin.html">sign in</a>
+                </fieldset>
+            </form>
+
+        </div>
+
+    </body>
+</html>
