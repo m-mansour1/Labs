@@ -1,2 +1,2 @@
 Web Development Course Labs
-Web Dev Labs - Fall 2021 
+ - Fall 2021 
